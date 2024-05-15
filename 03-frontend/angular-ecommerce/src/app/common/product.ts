@@ -5,7 +5,7 @@ export class Product {
         public name: string,
         public description: string,
         public unitPrice: number,
-        public imagUrl: string,
+        public imageUrl: string,
         public active:boolean,
         public unitInStock:number,
         public dateCreated: Date,
