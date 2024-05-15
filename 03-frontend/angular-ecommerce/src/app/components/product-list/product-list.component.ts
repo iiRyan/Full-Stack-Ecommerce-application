@@ -39,7 +39,6 @@ export class ProductListComponent {
     }
 
 
-
     this.productService.gerProductList(this.currentCategoryId).subscribe(
       data => {
         this.products = data;
